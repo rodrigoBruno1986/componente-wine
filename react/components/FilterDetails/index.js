@@ -1,6 +1,5 @@
 import React, {useContext} from 'react'
 import {useCssHandles} from 'vtex.css-handles'
-import ComponentChecker from './../ComponentChecker/index'
 import {ProductContext} from 'vtex.product-context'
 import './style.css'
 
@@ -57,21 +56,7 @@ const FilterDetails = (props) => {
         return null
     }
 
-    return (
 
-        //// ACA AGREGAMOS EL CONTENIDO QUE QUEREMOS VER DENTRO DE SU RESPECTIVO DIV YA SEA 1 O 2
-        <ComponentChecker>
-            <div className={handles['FilterDetails--container']}>
-                <div className={handles['FilterDetails--detailsGroupOne']}>
-                        {skfG(grupoName, 1)}
-                </div>
-                <div className={handles['FilterDetails--detailsGroupTwo']}>
-                        {skfG(grupoName, 2)}
-                </div>
-            </div>
-        </ComponentChecker>
-        
-    )
 }
 
 FilterDetails.getSchema = props => {
