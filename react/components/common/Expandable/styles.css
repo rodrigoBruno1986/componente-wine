@@ -1,0 +1,15 @@
+.triggerAccordion {
+    transition: all 300ms;
+}
+
+.accordionIsOpen {
+    transform: rotate(90deg);
+}
+
+.isActive{
+    background: #e0e0e0;
+}
+
+.isActive .titleAccordion{
+    font-family: 'Nunito-ExtraBold';
+}

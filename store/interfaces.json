@@ -1,0 +1,19 @@
+{
+  "MenuHorizontal":{
+    "component": "MenuHorizontal",
+    "composition": "children",
+    "content": {
+      "properties": {
+        "items":{
+        }
+      }
+    }
+  },
+  "ExpandableMenu": {
+    "component": "ExpandableMenu",
+    "content": {
+      "properties": {
+      }
+    }
+  }
+}

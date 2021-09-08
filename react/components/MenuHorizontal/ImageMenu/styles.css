@@ -1,0 +1,8 @@
+.ImageMenu {
+    object-fit: contain;
+}
+
+.ImageMenuContainer {
+    padding: 2rem 4rem;
+    max-width: 30%;
+}

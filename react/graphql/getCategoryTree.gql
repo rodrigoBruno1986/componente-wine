@@ -1,0 +1,7 @@
+query getMenu {
+  categories(page: 1, term: "", pageSize: 1000, active: true) {
+    items {
+      id, name, title, order, hasChildrenCategories
+    }
+  }
+}
