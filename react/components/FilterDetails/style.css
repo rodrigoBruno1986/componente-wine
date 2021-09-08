@@ -1,0 +1,117 @@
+
+/*ACA SE CREO EL CSS DEL COMPONENTE FILTERDETAILS*/
+
+.FilterDetails--container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.FilterDetails--detailsGroupOne {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.FilterDetails--detailsGroupTwo {
+    width: 55%;
+    height: 10%;
+    min-height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.FilterDetails--detailsItem {
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+.FilterDetails--detailsItem-2 {
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    flex: 0 0 calc(40% - 1rem);
+}
+
+
+.FilterDetails--text-1 {
+    width: 180px;
+    background: #fff;
+    color: #264357;
+    padding: 0.3rem;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 16px 0 0;
+}
+
+.FilterDetails--text-2 {
+    margin: 0;
+    color: grey;
+    font-size: 16px;
+}
+
+
+/*Filtro superior*/
+
+
+.FilterDetails--container--filtro-superior {
+    width: unset;
+    justify-content: flex-start;
+}
+
+.FilterDetails--detailsGroupOne--filtro-superior {
+    width: 100%;
+}
+
+.FilterDetails--detailsGroupTwo--filtro-superior {
+    display: none;
+}
+
+
+.FilterDetails--text-1--filtro-superior {
+    font-size: 13px;
+    text-transform: capitalize;
+    background: none;
+}
+
+.FilterDetails--text-2--filtro-superior{
+    font-size: 13px;
+    text-transform: capitalize;
+    color: #264357;
+}
+
+
+@media (max-width: 768px) {
+    .FilterDetails--container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 15px;
+    }
+
+    .FilterDetails--detailsGroupOne {
+        width: 100%;
+    }
+    
+    .FilterDetails--detailsGroupTwo {
+        width: 100%;
+        height: unset;
+        max-height: unset;
+    }
+
+    .FilterDetails--detailsItem-2 {
+        height: unset;
+    }
+    
+
+    .FilterDetails--text-1 {
+        font-size: 13px;
+    }
+
+    .FilterDetails--text-2 {
+        width: 150px;
+    }
+
+}

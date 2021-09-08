@@ -1,9 +1,9 @@
 {
-  "vendor": "limpioonline",
-  "name": "limpioonline-components",
+  "vendor": "winesupply",
+  "name": "winesupply-components",
   "version": "1.0.5",
-  "title": "Limpioonline Components",
-  "description": "Limpioonline Components",
+  "title": "winesupply Components",
+  "description": "winesupply Components",
   "defaultLocale": "pt-BR",
   "builders": {
     "messages": "1.x",

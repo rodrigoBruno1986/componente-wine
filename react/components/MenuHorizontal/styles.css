@@ -1,8 +1,0 @@
-.MenuHorizontal {
-    width: 100%;
-    min-height: 50vh;
-    display: flex;
-    justify-content: space-between;
-    font-family: 'Nunito-Regular';
-    color: #4d4d4d;
-}
