@@ -1,7 +1,7 @@
 
 /*ACA SE CREO EL CSS DEL COMPONENTE FILTERDETAILS*/
 
-.FilterDetails--container {
+.FilterDetailsContainer {
     display: flex;
     justify-content: flex-end;
 }
