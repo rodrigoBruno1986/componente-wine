@@ -1,5 +1,54 @@
 {
   "FilterDetails": {
     "component": "FilterDetails"
+  },
+  "VideoPlayer": {
+    "component": "VideoPlayer",
+    "content": {
+      "properties": {
+        "plataforma": {
+          "default": "Custom"
+        },
+        "urlCustom": {
+          "default": "https://statics.glamit.com.ar/media/wysiwyg/c1alandb/home/glamit_720.mp4"
+        },
+        "posterCustom": {
+          "default": "https://statics.glamit.com.ar/media/wysiwyg/c1alandb/home/glamit_poster.jpg"
+        },
+        "idVideo": {
+          "default": ""
+        },
+        "isAutoplay": {
+          "default": true
+        },
+        "isMute": {
+          "default": true
+        },
+        "isLoop": {
+          "default": true
+        },
+        "isTextShow": {
+          "default": false
+        },
+        "isColorControl": {
+          "title": "Color de controles (hexadecimal)",
+          "type": "string",
+          "isLayout": true,
+          "default": "000000"
+        },
+        "isViewControl": {
+          "default": true
+        },
+        "isFullWidth": {
+          "default": true
+        },
+        "fullWidthHeight": {
+          "default": "100vh"
+        },
+        "className": {
+          "default": "videoplayer-custom"
+        }
+      }
+    }
   }
 }
